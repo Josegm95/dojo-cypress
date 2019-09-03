@@ -1,14 +1,3 @@
-/*describe('my first e2e test', () => {
-  it('should', () => {
-    cy.visit('http://example.cypress.io');
-    cy.contains('type').click();
-    cy.url().should('include', '/commands/action');
-    cy.get('.action-email')
-      .type('jose.fgm1995@gmail.com')
-      .should('have.value', 'jose.fgm1995@gmail.com');
-  });
-});*/
-
 describe('my first vtex e2e test', () => {
   it('check checkout', () => {
     cy.visit('https://spirito.com.co/');
